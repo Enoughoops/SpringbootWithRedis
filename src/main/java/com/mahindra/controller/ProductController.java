@@ -15,5 +15,8 @@ public class ProductController {
     String home(){
         return  "Hello Enough";
     }
-
+    @RequestMapping("/error")
+    String home(){
+        return  "Error";
+    }
 }
